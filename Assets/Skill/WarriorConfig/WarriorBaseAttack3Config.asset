@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c279196f86a198944bf87ad1d88e3fd3, type: 3}
+  m_Name: WarriorBaseAttack3Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7400000, guid: 2d45f153d8fc9d8488863f43e3d61bad, type: 3}
+    - {fileID: 8300000, guid: 6821383a375d63a42b2243b9e5f8a1f0, type: 3}
+    - {fileID: 1344482632029174, guid: ba91425caf3aa564ba28090632715dd3, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SkillAnimationData
+      Entry: 7
+      Data: 0|SkillAnimationData, Assembly-CSharp
+    - Name: FrameData
+      Entry: 7
+      Data: 1|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SkillAnimationEvent,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 2|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 3|SkillAnimationEvent, Assembly-CSharp
+    - Name: AnimationClip
+      Entry: 10
+      Data: 0
+    - Name: ApplyRootMotion
+      Entry: 5
+      Data: true
+    - Name: TransitionTime
+      Entry: 4
+      Data: 0.25
+    - Name: DurationFrame
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SkillAudioData
+      Entry: 7
+      Data: 4|SkillAudioData, Assembly-CSharp
+    - Name: FrameData
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[SkillAudioEvent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 6|SkillAudioEvent, Assembly-CSharp
+    - Name: TrackName
+      Entry: 1
+      Data: "\u97F3\u6548\u8F68\u9053"
+    - Name: FrameIndex
+      Entry: 3
+      Data: 0
+    - Name: AudioClip
+      Entry: 10
+      Data: 1
+    - Name: Voluem
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SkillEffectData
+      Entry: 7
+      Data: 7|SkillEffectData, Assembly-CSharp
+    - Name: FrameData
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[SkillEffectEvent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|SkillEffectEvent, Assembly-CSharp
+    - Name: TrackName
+      Entry: 1
+      Data: "\u7279\u6548\u8F68\u9053"
+    - Name: FrameIndex
+      Entry: 3
+      Data: 0
+    - Name: Prefab
+      Entry: 10
+      Data: 2
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.06658786
+    - Name: 
+      Entry: 4
+      Data: -0.413
+    - Name: 
+      Entry: 4
+      Data: 1.84
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: 19
+    - Name: AutoDestruct
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SkillAttackDetectionData
+      Entry: 7
+      Data: 10|SkillAttackDetectionData, Assembly-CSharp
+    - Name: FrameData
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[SkillAttackDetectionEvent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|SkillAttackDetectionEvent, Assembly-CSharp
+    - Name: TrackName
+      Entry: 1
+      Data: "\u653B\u51FB\u68C0\u6D4B\u8F68\u9053"
+    - Name: FrameIndex
+      Entry: 3
+      Data: 9
+    - Name: DurationFrame
+      Entry: 3
+      Data: 11
+    - Name: AttackDetectionData
+      Entry: 7
+      Data: 13|AttackWeaponDetectionData, Assembly-CSharp
+    - Name: weaponName
+      Entry: 1
+      Data: "\u53CC\u624B\u6B66\u5668"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  SkillName: BaseAttack3
+  SkillType: 0
+  DamageCount: 1
+  MinDamage: 8
+  MaxDamage: 16
+  FrameCount: 20
+  FrameRote: 30
+  SustainedDamage: 0
